@@ -8,7 +8,7 @@ Este repositório contém o projeto dbt (Data Build Tool) da Empresa XYZ, respon
 
 1. **Clone o repositório**:
    ```bash
-   git clone https://github.com/sua-empresa/dbt-project.git
+   git clone https://github.com/MarlosIgor/dbt-projeto-ficticio.git
    cd dbt-project
    ```
 
