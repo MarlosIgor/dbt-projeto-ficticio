@@ -30,3 +30,8 @@ models:
       schema: marts
       materialized: table
       tags: ['marts']
+
+seeds:
+  dbt_core_project:
+    +schema: seeds
+    tags: ['seeds']
