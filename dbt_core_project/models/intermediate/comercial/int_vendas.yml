@@ -1,0 +1,20 @@
+version: 2
+
+models:
+  - name: int_orders_customers
+    description: "Modelo intermediário que consolida informações de pedidos e clientes."
+    columns:
+      - name: order_id
+        description: "ID único do pedido."
+      - name: order_date
+        description: "Data em que o pedido foi realizado."
+      - name: shipped_date
+        description: "Data em que o pedido foi enviado."
+      - name: status_envio
+        description: "Status do envio ('enviado' ou 'envio pendente')."
+      - name: company_name
+        description: "Nome da empresa do cliente."
+      - name: contact_name
+        description: "Nome do contato do cliente."
+      - name: country
+        description: "País do cliente."
